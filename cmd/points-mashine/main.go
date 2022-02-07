@@ -1,0 +1,5 @@
+package pointsmashine
+
+func main() {
+
+}

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	points_machine "pointsmashine/internal/app/points-mashine"
+	points_machine "points_machine/internal/app/points-machine"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-package points_mashine
+package points_machine
 
 import (
 	"fmt"

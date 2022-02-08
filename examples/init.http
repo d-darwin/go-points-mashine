@@ -1,0 +1,5 @@
+POST http://localhost:7000/v1/init
+
+{
+    "id": 1
+}

@@ -17,3 +17,13 @@ func Test_Accrual(t *testing.T) {
 		}
 	})
 }
+
+/* func Test_Charge(t *testing.T) {
+	t.Run("success charge", func(t *testing.T) {
+		userId := 1
+		amount := uint(100)
+
+		InitAccount(userId)
+		Accrual(userId, amount)
+	})
+} */

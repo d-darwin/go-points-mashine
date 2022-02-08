@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	points_mashine "pointsmashine/internal/app/points-mashine"
+	points_machine "pointsmashine/internal/app/points-mashine"
 )
 
 func main() {
@@ -27,16 +27,16 @@ func main() {
 	// map
 	// var accountsMap map[int]int
 	// accountsMap[1] = 100
-	points_mashine.InitAccount(1)
-	points_mashine.Accrual(1, 100)
-	points_mashine.Charge(1, 50)
+	points_machine.InitAccount(1)
+	points_machine.Accrual(1, 100)
+	points_machine.Charge(1, 50)
 	// accountsMap[2] = 200
-	points_mashine.InitAccount(2)
-	points_mashine.Accrual(2, 200)
-	points_mashine.Charge(2, 100)
+	points_machine.InitAccount(2)
+	points_machine.Accrual(2, 200)
+	points_machine.Charge(2, 100)
 	// accountsMap[3] = 300
 	// initAccount(2)
 
-	fmt.Println(accountsMap)
-	points_mashine.PrintTransactions()
+	points_machine.PrintAccounts()
+	points_machine.PrintTransactions()
 }

@@ -29,6 +29,10 @@ func InitAccount(id int) {
 	accountsMap[id] = amount
 }
 
+func PrintAccounts() {
+	fmt.Println(accountsMap)
+}
+
 func PrintTransactions() {
 	fmt.Println("Transactions:")
 	for _, trx := range transactions {
